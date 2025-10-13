@@ -1,0 +1,40 @@
+{
+  "name": "@slides/theme",
+  "version": "0.0.1",
+  "description": "Slidev custom theme.",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": "^24"
+  },
+  "main": "index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts"
+    }
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^52.2.5"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.2.5"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "fonts": {
+        "sans": "Open Sans",
+        "mono": "JetBrains Mono"
+      }
+    }
+  }
+}

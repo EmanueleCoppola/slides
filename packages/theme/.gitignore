@@ -1,0 +1,26 @@
+
+# IDE/Editor
+.idea/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+vendor/
+
+.yarn/
+.yarnrc.yml
+
+.vite-inspect
+.remote-assets
+components.d.ts
+*.local
+
+# Build
+build/
+dist/
+
+# OS
+.DS_Store
+__MACOSX
+*~

@@ -1,0 +1,5 @@
+@import url('../assets/fonts/OpenSans/OpenSans/OpenSans.css');
+
+.slidev-layout {
+  font-family: 'Open Sans', system-ui, sans-serif;
+}
