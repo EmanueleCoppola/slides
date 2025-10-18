@@ -1,0 +1,16 @@
+{
+  "name": "@slides/html-lesson-2025-10-17",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slides/theme": "workspace:^",
+    "@slidev/cli": "^52.2.5",
+    "vue": "^3.5.22"
+  }
+}
